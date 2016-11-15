@@ -1,0 +1,46 @@
+{
+  "name": "qtort-lib-app",
+  "version": "1.0.0",
+  "description": "Provides an event driven application lifecycle.",
+  "main": "./qtort-lib-app.js",
+  "authors": [
+    {
+      "name": "Fred Westrom",
+      "email": "npm@qtort.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fwestrom/qtort-lib-app.git"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "lodash": "^4.17.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "proxyquire": "^1.7.10",
+    "should": "^8.3.1",
+    "sinon": "^1.17.6"
+  },
+  "keywords": [
+    "app",
+    "lifecycle",
+    "events",
+    "micro-services",
+    "microservices",
+    "qtort-lib",
+    "qtort-microservices",
+    "microservice-crutch",
+    "medseek-util-microservices",
+    "soa",
+    "service",
+    "services"
+  ],
+  "scripts": {
+    "self": "node . --ll=info",
+    "test": "node node_modules/mocha/bin/_mocha --reporter spec test --log.replaceConsole=false --ll=warn",
+    "test-watch": "node node_modules/mocha/bin/_mocha --reporter min --watch test --log.replaceConsole=false --ll=warn"
+  }
+}
