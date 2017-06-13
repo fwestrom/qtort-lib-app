@@ -2,7 +2,7 @@
   "name": "qtort-lib-app",
   "version": "1.0.0",
   "description": "Provides an event driven application lifecycle.",
-  "main": "./qtort-lib-app.js",
+  "main": "qtort-lib-app.js",
   "authors": [
     {
       "name": "Fred Westrom",
